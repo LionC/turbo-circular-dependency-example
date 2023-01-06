@@ -1,0 +1,6 @@
+{
+  "name": "schema",
+  "scripts": {
+    "build": "Building schema"
+  }
+}

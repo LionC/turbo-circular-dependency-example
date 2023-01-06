@@ -1,0 +1,14 @@
+{
+  "name": "web",
+  "scripts": {
+    "build": "Building web",
+    "codegen": "Generating web code"
+  },
+  "dependencies": {
+      "utils": "workspace:*"
+  },
+  "devDependencies": {
+      "schema": "workspace:*",
+      "eslint-config": "workspace:*"
+  }
+}

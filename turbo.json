@@ -1,0 +1,14 @@
+{
+	"$schema": "https://turbo.build/schema.json",
+	"pipeline": {
+		"codegen": {
+			"dependsOn": ["schema#build"]
+		},
+		"build": {
+			"dependsOn": ["codegen", "^build"]
+		},
+        "schema#build": {
+            "dependsOn": ["^build"]
+        }
+	}
+}
