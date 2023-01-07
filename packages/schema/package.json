@@ -1,6 +1,6 @@
 {
   "name": "schema",
   "scripts": {
-    "build": "Building schema"
+    "codegen": "echo \"Build schema here...\" && echo \"Create GraphQL Client\""
   }
 }
