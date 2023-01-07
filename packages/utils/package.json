@@ -1,9 +1,9 @@
 {
   "name": "utils",
   "scripts": {
-    "build": "Utils building"
+    "build": "echo \"Utils building\""
   },
   "devDependencies": {
-      "eslint-config": "workspace:*"
+    "eslint-config": "workspace:*"
   }
 }

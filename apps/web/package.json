@@ -1,14 +1,13 @@
 {
   "name": "web",
   "scripts": {
-    "build": "Building web",
-    "codegen": "Generating web code"
+    "build": " echo \"Building web\""
   },
   "dependencies": {
-      "utils": "workspace:*"
+    "utils": "workspace:*"
   },
   "devDependencies": {
-      "schema": "workspace:*",
-      "eslint-config": "workspace:*"
+    "schema": "workspace:*",
+    "eslint-config": "workspace:*"
   }
 }

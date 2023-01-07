@@ -1,14 +1,11 @@
 {
-	"$schema": "https://turbo.build/schema.json",
-	"pipeline": {
-		"codegen": {
-			"dependsOn": ["schema#build"]
-		},
-		"build": {
-			"dependsOn": ["codegen", "^build"]
-		},
-        "schema#build": {
-            "dependsOn": ["^build"]
-        }
-	}
+  "$schema": "https://turbo.build/schema.json",
+  "pipeline": {
+    "codegen": {
+      "outputs": ["your", "outputs", "here"]
+    },
+    "build": {
+      "dependsOn": ["codegen", "^build"]
+    }
+  }
 }
